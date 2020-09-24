@@ -24,7 +24,7 @@ export default function Post({ post, morePosts, preview }) {
           <PostTitle>Loading…</PostTitle>
         ) : (
           <>
-            <article className="mb-32">
+            <article className="mb-16">
               <Head>
                 <title>
                   {post.title} | Next.js Blog Example with {CMS_NAME}
